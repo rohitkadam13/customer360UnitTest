@@ -35,7 +35,7 @@ class arithmeticTest extends CTestCase
 	
 	public function testSub()
 	{
-		$this->assertEquals(2, $this->process(6, 3, '-'));
+		$this->assertEquals(3, $this->process(6, 3, '-'));
 	}
 }
 ?>

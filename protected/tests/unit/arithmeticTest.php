@@ -30,7 +30,7 @@ class arithmeticTest extends CTestCase
 	
 	public function testAdd()
 	{
-		$this->assertEquals(9, $this->process(4, 5, '+'));
+		$this->assertEquals(10, $this->process(5, 5, '+'));
 	}
 	
 	public function testSub()
